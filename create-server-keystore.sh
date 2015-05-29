@@ -15,7 +15,7 @@ if [ -d "foothority-keystore" ]; then
 		rm -rf foothority-keystore/*
 		rm -rf foothority-p12/emerald-cert.p12
 		
-		keytool -genkey -alias mydomain -keyalg RSA -keystore emerald-keystore.jks -keysize 2048 -dname "CN=Demo Server, OU=Development, O=server, L=Rome, S=Lazio, C=IT" -storepass 123456 -keypass 123456
+		keytool -genkey -alias mydomain -keyalg RSA -keystore foothority-keystore/emerald-keystore.jks -keysize 2048 -dname "CN=Demo Server, OU=Development, O=server, L=Rome, S=Lazio, C=IT" -storepass 123456 -keypass 123456
 
 		echo "Created Keystore"
 
