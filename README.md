@@ -16,7 +16,7 @@ This will init your key
 		
 	init-foo-ca.sh
 	
-This create the ca:
+This creates the ca:
 
 	C=OZ
 	ST=Land of Oz
